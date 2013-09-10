@@ -18,10 +18,35 @@ ul {
 
 /*--------------------------- Delete above code -----------------------------*/
 
+/*--------------------------- Fonts -----------------------------------------*/
+
 body {
 	font-family: Ruluko, sans-serif;
 }
 
 h1, h2, h3, h4 ,h5 ,h6 {
 	font-family: Rancho, cursive;
+}
+
+/*-------------------------- Page Setup -------------------------------------*/
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }
