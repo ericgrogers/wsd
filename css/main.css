@@ -1,0 +1,27 @@
+/*--------------------- Temporary code for aiding alignments ----------------*/
+
+h1, h2 ,h3 ,h4, h5, h6 {
+	background: #333;
+}
+
+p {
+	background: #666;
+}
+
+a {
+	background: #999;
+}
+
+ul {
+	background: silver;
+}
+
+/*--------------------------- Delete above code -----------------------------*/
+
+body {
+	font-family: Ruluko, sans-serif;
+}
+
+h1, h2, h3, h4 ,h5 ,h6 {
+	font-family: Rancho, cursive;
+}
