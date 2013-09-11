@@ -45,6 +45,7 @@ h1 {
 	background-repeat: no-repeat;
 	padding: 5px 0 4px 20px;
 	text-indent: -50000px;
+	box-shadow:0 3px 5px #2E0B01;
 	float: left;
 }
 
@@ -74,6 +75,7 @@ nav a {
 	background: -ms-linear-gradient(#FACC7D, #FABC50, #855503);
 	background: -o-linear-gradient(#FACC7D, #FABC50, #855503);
 	background: -webkit-linear-gradient(#FACC7D, #FABC50, #855503);
+	box-shadow: 0 3px 5px #2E0B01;
 }
 
 nav a:hover {
@@ -105,6 +107,9 @@ h2 {
 	font-size: 24px;
 	text-align: center;
 	color: #fff;
+	background: rgba(186, 120, 4, 0.5);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	text-shadow: 2px 3px 2px #010747;
 	float: left; 
 }
@@ -115,7 +120,8 @@ h2 {
 	padding: 10px;
 	color: #1f1f1f;
 	background: rgba(255, 255, 255, 0.5);
-	border-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	float: left;
 }
 
@@ -154,30 +160,46 @@ h2 {
 
 .gallery {
 	clear: both;
-	margin-top: 30px;
+	margin: 30px 0;
+	width: 960px;
+	height: 540px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.5);
 }
 
 h3 {
 	width: 890px;
 	padding-left: 20px;
 	font-size: 24px;
+	color: #fff;
+	background: rgba(186, 120, 4, .7);
+	border-top-left-radius: 10px;
+	text-shadow: 2px 3px 2px #010747;
+
 	float: left;
 }
 
 #toplink_gallery {
 	width: 48px;
-	height: 29px;
+	height: 33px;
 	line-height: 2;
 	text-align: center;
-	border: 1px solid #fff;
-	border-top-right-radius: 15px;
 	float: left;
 }
+
 #toplink_gallery a {
 	width: 48px;
-	height: 29px;
+	height: 33px;
+	border-top-right-radius: 10px;
 	text-decoration: none;
+	background: rgba(255, 255, 255, 0.5);
+	color:  #A65F03;
 	display: block;
+}
+
+#toplink_gallery a:hover {
+	color: red;
+	box-shadow: 1px 0 3px #ff0400;
 }
 
 #g_images ul {
@@ -292,7 +314,7 @@ h5 {
 	line-height: 2;
 	text-align: center;
 	border: 1px solid #fff;
-	border-top-right-radius: 15px;
+	border-top-right-radius: 10px;
 	float: left;
 }
 #toplink_about a {
