@@ -65,9 +65,10 @@ nav ul li {
 
 nav a {
 	width: 100px;
-	height: 52px;
+	height: 50px;
 	text-decoration: none;
 	display: block;
+	border: 1px solid #E8C68B;
 	color: #fff;
 	background: -moz-linear-gradient(#FACC7D, #FABC50, #855503);
 	background: -ms-linear-gradient(#FACC7D, #FABC50, #855503);
@@ -119,10 +120,35 @@ h2 {
 }
 
 #signup_btn {
-	width: 100px;
+	width: 120px;
 	margin: 10px 30px 0 0;
+	text-align: center;
+	line-height: 1.5;
 	float: right;
 }
+
+#signup_btn a {
+	width: 120px;
+	height: 30px;
+	text-decoration: none;
+	display: block;
+	border-radius: 20px;
+	color: #fff;
+	box-shadow: 2px 3px 5px #2E0B01;
+	background: -moz-linear-gradient(#F59D84, #B02904, #4D1101);
+	background: -ms-linear-gradient(#F59D84, #B02904, #4D1101);
+	background: -o-linear-gradient(#F59D84, #B02904, #4D1101);
+	background: -webkit-linear-gradient(#F59D84, #B02904, #4D1101);
+}
+
+#signup_btn a:hover {
+	background: -moz-linear-gradient(#4D1101, #B02904, #F59D84);
+	background: -ms-linear-gradient(#4D1101, #B02904, #F59D84);
+	background: -o-linear-gradient(#4D1101, #B02904, #F59D84);
+	background: -webkit-linear-gradient(#4D1101, #B02904, #F59D84);
+	color: #FABC50;
+}
+
 
 /*--------------------------- Gallery -----------------------------------------*/
 
