@@ -8,9 +8,9 @@ p {
 	background: #666;
 }
 
-a {
+/*a {
 	background: #999;
-}
+}*/
 
 ul {
 	background: silver;
@@ -51,22 +51,29 @@ ul {
 	padding: 0;
 }
 
+
 /*-------------------------- Header ---------------------------------------*/
 
 h1 {
 	width: 640px;
 	padding: 5px 0 4px 20px;
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+	text-indent: -50000px;
 	float: left;
 }
 
 nav ul {
 	width: 300px;
 	height: 50px;
+	list-style-type: none;
 	float: left;
 }
 
 nav ul li {
 	width: 100px;
+	line-height: 3;
+	text-align: center;
 	float: left;
 }
 
@@ -110,6 +117,7 @@ h2 {
 
 .gallery {
 	clear: both;
+	margin-top: 30px;
 }
 
 h3 {
@@ -120,15 +128,26 @@ h3 {
 }
 
 #toplink_gallery {
-	width: 50px;
-	height: 31px;
+	width: 48px;
+	height: 29px;
+	line-height: 2;
+	text-align: center;
+	border: 1px solid #fff;
+	border-top-right-radius: 15px;
 	float: left;
+}
+#toplink_gallery a {
+	width: 48px;
+	height: 29px;
+	text-decoration: none;
+	display: block;
 }
 
 #g_images ul {
 	width: 960px;
 	padding-top: 10px;
 	margin: 0;
+	list-style-type: none;
 	float: left;
 }
 
@@ -158,8 +177,9 @@ h3 {
 /*------------------------- Testimonies ------------------------------------------*/
 
 .testimony_list ul {
-	width: 960;
+	width: 960px;
 	margin-top: 30px;
+	list-style-type: circle;
 	float: left;
 }
 
@@ -195,4 +215,105 @@ h3 {
 	width: 500px;
 	margin-left: 30px;
 	float: left;
+}
+
+/*----------------------------- Aside (Extra Info) ---------------------------*/
+
+.extra_info {
+	clear: left;
+	width: 400px;
+	margin: 30px;
+	float: right;
+}
+
+h4 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.extra_info p {
+	width: 380px;
+	padding:10px;
+}
+
+/*----------------------------- About -----------------------------------------*/
+
+.about_article {
+	clear: both;	
+}
+
+h5 {
+	font-size: 24px;
+	width: 890px;
+	padding-left: 20px;
+	float: left;
+}
+
+#toplink_about {
+	width: 48px;
+	height: 29px;
+	line-height: 2;
+	text-align: center;
+	border: 1px solid #fff;
+	border-top-right-radius: 15px;
+	float: left;
+}
+#toplink_about a {
+	width: 48px;
+	height: 29px;
+	text-decoration: none;
+	display: block;
+}
+
+.emphasis {
+	font-style:italic;
+}
+
+.about_article div {
+	clear: both;
+	padding-top: 30px;
+	margin: 0 30px;
+	column-count: 3;
+	column-gap: 30px;
+	-moz-column-count: 3;
+	-moz-column-gap: 30px;
+}
+
+/*----------------------------- Sign-Up Form to be added later ------------------*/
+
+.signup_form {
+	margin-top: 30px;
+}
+
+h6 {
+	font-size: 24px;
+	width: 890px;
+	margin: 0 0 30px 0;
+	padding-left: 20px;
+	float:left;
+}
+
+#toplink_signup {
+	width: 48px;
+	height: 29px;
+	line-height: 2;
+	text-align: center;
+	border: 1px solid #fff;
+	border-top-right-radius: 15px;
+	float: left;
+}
+#toplink_signup a {
+	width: 48px;
+	height: 29px;
+	text-decoration: none;
+	display: block;
+}
+
+/*---------------------------- Footer ----------------------------------------------*/
+
+footer p {
+	text-align: center;
+	width: 900px;
+	padding-bottom: 30px;
+	margin: 30px;
 }
