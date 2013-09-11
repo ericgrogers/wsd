@@ -180,7 +180,7 @@ h3 {
 }
 
 #toplink_gallery {
-	width: 48px;
+	width: 49px;
 	height: 33px;
 	line-height: 2;
 	text-align: center;
@@ -188,7 +188,7 @@ h3 {
 }
 
 #toplink_gallery a {
-	width: 48px;
+	width: 49px;
 	height: 33px;
 	border-top-right-radius: 10px;
 	text-decoration: none;
@@ -303,13 +303,13 @@ h4 {
 
 h5 {
 	font-size: 24px;
-	width: 890px;
+	width: 889px;
 	padding-left: 20px;
 	float: left;
 }
 
 #toplink_about {
-	width: 48px;
+	width: 49px;
 	height: 29px;
 	line-height: 2;
 	text-align: center;
@@ -318,7 +318,7 @@ h5 {
 	float: left;
 }
 #toplink_about a {
-	width: 48px;
+	width: 49px;
 	height: 29px;
 	text-decoration: none;
 	display: block;
