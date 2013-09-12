@@ -350,6 +350,14 @@ h4 {
 	box-shadow: 0 3px 5px #734800;
 }
 
+.extra_info a {
+	color: #3F38FF;
+}
+
+.extra_info a:hover {
+	color: #C90202;
+}
+
 /*-----------------------------About -----------------------------------------*/
 
 .about_article {
