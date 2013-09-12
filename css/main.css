@@ -45,7 +45,7 @@ h1 {
 	background-repeat: no-repeat;
 	padding: 5px 0 4px 20px;
 	text-indent: -50000px;
-	box-shadow:0 3px 5px #2E0B01;
+	box-shadow:0 3px 5px #734800;
 	float: left;
 }
 
@@ -75,7 +75,7 @@ nav a {
 	background: -ms-linear-gradient(#FACC7D, #FABC50, #855503);
 	background: -o-linear-gradient(#FACC7D, #FABC50, #855503);
 	background: -webkit-linear-gradient(#FACC7D, #FABC50, #855503);
-	box-shadow: 0 3px 5px #2E0B01;
+	box-shadow: 0 3px 5px #734800;
 }
 
 nav a:hover {
@@ -92,6 +92,9 @@ nav a:hover {
 	width: 960px;
 	height: 326px;
 	background: rgba(186, 120, 4, 0.3);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 3px 5px #734800;
 }
 .cta img {
 	width: 400px;
@@ -140,7 +143,7 @@ h2 {
 	display: block;
 	border-radius: 20px;
 	color: #fff;
-	box-shadow: 2px 3px 5px #2E0B01;
+	box-shadow: 2px 3px 5px #734800;
 	background: -moz-linear-gradient(#F59D84, #B02904, #4D1101);
 	background: -ms-linear-gradient(#F59D84, #B02904, #4D1101);
 	background: -o-linear-gradient(#F59D84, #B02904, #4D1101);
@@ -162,7 +165,7 @@ h2 {
 	clear: both;
 	margin: 30px 0;
 	width: 960px;
-	height: 540px;
+	height: 630px;
 	border-radius: 10px;
 	background: rgba(255, 255, 255, 0.5);
 }
@@ -175,7 +178,7 @@ h3 {
 	background: rgba(186, 120, 4, .7);
 	border-top-left-radius: 10px;
 	text-shadow: 2px 3px 2px #010747;
-
+	box-shadow:0 3px 5px #734800;
 	float: left;
 }
 
@@ -194,6 +197,7 @@ h3 {
 	text-decoration: none;
 	background: rgba(255, 255, 255, 0.5);
 	color:  #A65F03;
+	box-shadow:0 3px 5px #734800;
 	display: block;
 }
 
@@ -205,32 +209,48 @@ h3 {
 #g_images ul {
 	width: 960px;
 	padding-top: 10px;
-	margin: 0;
+	margin-top: 30px;
 	list-style-type: none;
 	float: left;
 }
 
 .image_g1 {
 	width: 150px;
-	margin: 0 100px 0 30px;
+	margin: 0 91px 0 30px;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow:0 3px 5px #2E0B01;
 	float: left;
 }
 
 .image_g2 {
 	width: 150px;
-	margin-right: 100px;
+	margin-right: 94px;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow:0 3px 5px #2E0B01;
 	float: left;
 }
 
 .image_g3 {
 	width: 150px;
-	margin-right: 100px;
+	margin-right: 94px;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow:0 3px 5px #2E0B01;
 	float: left;
 }
 
 .image_g4 {
 	width: 150px;
 	margin: 0;
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow:0 3px 5px #2E0B01;
 	float: left;
 }
 /*------------------------- Testimonies ------------------------------------------*/
@@ -265,14 +285,23 @@ h3 {
 	float: left;
 }
 .testimony_paragraph {
-	width: 900px;
-	margin: 30px 30px 10px 30px;
+	width: 880px;
+	margin: 30px 30px 0 30px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	float: left;
 }
 
 .testimony_john {
-	width: 500px;
+	width: 480px;
 	margin-left: 30px;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 10px 10px 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	float: left;
 }
 
@@ -281,13 +310,14 @@ h3 {
 .extra_info {
 	clear: left;
 	width: 400px;
-	margin: 30px;
+	margin: 60px 30px 30px;
 	float: right;
 }
 
 h4 {
 	font-size: 18px;
 	text-align: center;
+	background: rgba(186, 120, 4, .7);	
 }
 
 .extra_info p {
