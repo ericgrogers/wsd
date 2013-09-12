@@ -214,9 +214,9 @@ h3 {
 }
 
 #toplink_gallery a:hover {
-	color: red;
-	-webkit-box-shadow: 1px 0 3px #ff0400;
-	box-shadow: 1px 0 3px #ff0400;
+	color: #C90202;
+	-webkit-box-shadow: 1px 0 3px #C90202;
+	box-shadow: 1px 0 3px #C90202;
 }
 
 #g_images ul {
@@ -396,9 +396,9 @@ h5 {
 }
 
 #toplink_about a:hover {
-	color: red;
-	-webkit-box-shadow: 1px 0 3px #ff0400;
-	box-shadow: 1px 0 3px #ff0400;
+	color: #C90202;
+	-webkit-box-shadow: 1px 0 3px #C90202;
+	box-shadow: 1px 0 3px #C90202;
 }
 
 .emphasis {
@@ -459,9 +459,9 @@ h6 {
 }
 
 #toplink_signup a:hover {
-	color: red;
-	-webkit-box-shadow: 1px 0 3px #ff0400;
-	box-shadow: 1px 0 3px #ff0400;
+	color: #C90202;
+	-webkit-box-shadow: 1px 0 3px #C90202;
+	box-shadow: 1px 0 3px #C90202;
 }
 
 /*----------------------------Footer ----------------------------------------------*/
