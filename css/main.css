@@ -716,8 +716,44 @@ footer p {
 		height: 25px;
 	}
 	
-	#g_images {
-		display: none;
+	#image_g1 {
+		width: 30%; /* 150px */
+		margin: 0 13.333333333333% 30px 13.333333333333%; /* 0 92px 0 30px */
+	}
+
+	#image_g1 img {
+		max-width: 100%;
+	}
+
+	#image_g2 {
+		width: 30%; /* 150px */
+		margin: 0;
+		float: left;
+	}
+
+	#image_g2 img {
+		max-width: 100%;
+	}
+
+	#image_g3 {
+		clear: left;
+		width: 30%; /* 150px */
+		margin: 0 13.333333333333% 30px 13.333333333333%; /* 0 92px 0 30px */
+		float: left;
+	}
+
+	#image_g3 img {
+		max-width: 100%;
+	}
+
+	#image_g4 {
+		width: 30%; /* 150px */
+		border: 3px solid white;
+		float: left;
+	}
+
+	#image_g4 img {
+		max-width: 100%;
 	}
 	
 	.testimony_list ul {
@@ -781,13 +817,16 @@ footer p {
 	}
 	
 	.about_article div {
-	padding: 5px;
 	-webkit-column-count: 1;
 	-moz-column-count: 1;
 	column-count: 1;
 	-webkit-column-gap: 0;  
 	-moz-column-gap: 0; 
 	column-gap: 0; 
+	}
+	
+	.about_article div p {
+		padding: 5px;
 	}
 	
 	.signup_form {
