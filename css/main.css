@@ -660,7 +660,7 @@ footer p {
 
 /*---------- Mobile Portrait Size to Mobile Landscape Size (devices and browsers) -*/
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 640px) {
 
 	h2, h3, h5, h6 {
 		font-size: 1.25em;
