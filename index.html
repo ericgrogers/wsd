@@ -140,18 +140,90 @@
 				</div> <!-- end of paragraphs div -->
 			</article>
 		
-			<!-- Space Reserved for a form to be added later
-			- - - - - - - - - - - - - - - - - - - - - - - -->
+			<!-- Signup Form -->
 		
 			<div class="signup_form">
 				<h6><a id="signup">Sign-Up!</a></h6>
 			
 				<p id="toplink_signup"><a href="#top" class="toplink">Top</a></p> <!-- top of page link -->
-			</div>
-		
-			<!-- Space Reserved for a form to be added later
-			- - - - - - - - - - - - - - - - - - - - - - - -->
-		
+			
+				<!-- Newsletter information table -->
+			
+				<table summary="Newsletter sign-up plans.">
+					<caption>Future Newsletters.</caption>
+					<tr>
+						<th class="col1">Date:</th>
+						<th class="col2">Article:</th>
+					</tr>
+					<tr class="row1">
+						<td class="col1">10/15/13</td>
+						<td class="col2">How to make your strings last!</td>
+					</tr>
+					<tr class="row2">
+						<td class="col1">11/15/13</td>
+						<td class="col2">Master your tone! Changing your pickups.</td>
+					</tr>
+					<tr class="row3">
+						<td class="col1">12/15/13</td>
+						<td class="col2">The ultimate guide to preparing for winter jam sessions.</td>
+					</tr>
+				</table>
+				
+				<form method="post" action="index.html">
+				
+					<fieldset class="field_1">
+						
+						<legend>Contact Info</legend>
+						
+						<div class="first_name">
+							<label for="f_name">First Name:</label>
+							<input type="text" name="f_name" id="f_name" />
+						</div>
+					
+						<div class="last_name">
+							<label for="l_name">Last Name:</label>
+							<input type="text" name="l_name" id="l_name" />
+						</div>
+					
+						<div class="email">
+							<label for="contact">E-mail:</label>
+							<input type="text" name="contact" id="contact" />
+						</div>
+					
+						<div class="zipcode">
+							<label for="zip">Zipcode:</label>
+							<input type="text" name="zip" id="zip" />
+						</div>
+					
+					</fieldset>
+					
+					<fieldset class="field_2">
+					
+						<legend>Newsletter Frequency</legend>
+						
+						<div class="frequency">
+							<select id="freq">
+								<option>Monthly</option>
+								<option>Bi-Monthly</option>
+								<option>Quarterly</option>
+							</select>
+						</div>
+						
+					</fieldset> <!-- end of Frequency fielset -->
+					
+					<div class="terms">
+						<input type="checkbox" name="agreement" id="agreement" />
+						<label for="agreement">I have read and agree to the terms.</label>
+					</div>
+					
+					<div class="submit_btn">
+						<input type="submit" value="Submit" />
+					</div>
+				
+				</form>
+				
+			</div> <!-- end of signup form div -->
+			
 			<footer>
 		
 				<p class="design_info">Web Design & Development by Eric Rogers. All Rights Reserved. &copy;2013.</p>
