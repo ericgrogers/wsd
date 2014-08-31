@@ -908,7 +908,7 @@ footer p {
 ------- Mobile Portrait Size to Mobile Landscape Size (devices and browsers) -------
 ----------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
 /*--------------------------- Page Setup -----------------------------------------*/
 
